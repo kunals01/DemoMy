@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[My Transactions]]>
+    </line>
+    <line>
+      <![CDATA[My Transactions]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Successful |Title matched |home page displayed | ]]>
+    </line>
+    <line>
+      <![CDATA[Invoice number fetched from the search Result|]]>
+    </line>
+    <line>
+      <![CDATA[search result displayed using Invoice number|]]>
+    </line>
+    <line>
+      <![CDATA[Search Result matches with search criteria |]]>
+    </line>
+    <line>
+      <![CDATA[Search Result matches with search criteria |]]>
+    </line>
+    <line>
+      <![CDATA[User logged out successfully|]]>
+    </line>
+    <line>
+      <![CDATA[Eighth sanity test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48452" started-at="2019-11-28T14:43:30 IST" finished-at="2019-11-28T14:44:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48452" started-at="2019-11-28T14:43:30 IST" finished-at="2019-11-28T14:44:18 IST">
+      <class name="BusinessLayer.MT_Sanity_8">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BusinessLayer.MT_Sanity_8@67205a84]" name="setUp" is-config="true" duration-ms="22" started-at="2019-11-28T14:43:30 IST" finished-at="2019-11-28T14:43:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MT_Sanity_008()[pri:0, instance:BusinessLayer.MT_Sanity_8@67205a84]" name="MT_Sanity_008" duration-ms="48393" started-at="2019-11-28T14:43:30 IST" finished-at="2019-11-28T14:44:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[My Transactions]]>
+            </line>
+            <line>
+              <![CDATA[My Transactions]]>
+            </line>
+            <line>
+              <![CDATA[Sign In Successful |Title matched |home page displayed | ]]>
+            </line>
+            <line>
+              <![CDATA[Invoice number fetched from the search Result|]]>
+            </line>
+            <line>
+              <![CDATA[search result displayed using Invoice number|]]>
+            </line>
+            <line>
+              <![CDATA[Search Result matches with search criteria |]]>
+            </line>
+            <line>
+              <![CDATA[Search Result matches with search criteria |]]>
+            </line>
+            <line>
+              <![CDATA[User logged out successfully|]]>
+            </line>
+            <line>
+              <![CDATA[Eighth sanity test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MT_Sanity_008 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BusinessLayer.MT_Sanity_8@67205a84]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-11-28T14:44:18 IST" finished-at="2019-11-28T14:44:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BusinessLayer.MT_Sanity_8 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

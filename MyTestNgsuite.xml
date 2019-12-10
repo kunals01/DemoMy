@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="MTtest" verbose="3" >
+  <test name="MT" >
+    <classes>
+       <class name="BusinessLayer.MT_Sanity_1" />
+		<class name="BusinessLayer.MT_Sanity_2" />
+		<class name="BusinessLayer.MT_Sanity_3" />
+		<class name="BusinessLayer.MT_Sanity_4" />
+			<class name="BusinessLayer.MT_Sanity_5" />
+			<class name="BusinessLayer.MT_Sanity_6" />
+
+      </classes>
+  </test>
+ </suite>

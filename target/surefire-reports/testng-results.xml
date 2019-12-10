@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[first sanity test passed]]>
+    </line>
+    <line>
+      <![CDATA[My Transactions]]>
+    </line>
+    <line>
+      <![CDATA[My Transactions]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Successful |Title matched |home page displayed | ]]>
+    </line>
+    <line>
+      <![CDATA[Second sanity test passed]]>
+    </line>
+    <line>
+      <![CDATA[My Transactions]]>
+    </line>
+    <line>
+      <![CDATA[My Transactions]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Successful |Title matched |home page displayed | ]]>
+    </line>
+    <line>
+      <![CDATA[User logged out successfully|]]>
+    </line>
+    <line>
+      <![CDATA[Third sanity test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="MTtest" duration-ms="61690" started-at="2019-11-07T04:28:39Z" finished-at="2019-11-07T04:29:41Z">
+    <groups>
+    </groups>
+    <test name="MT" duration-ms="61690" started-at="2019-11-07T04:28:39Z" finished-at="2019-11-07T04:29:41Z">
+      <class name="BisinessLayer.MT_Sanity_1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BisinessLayer.MT_Sanity_1@17c68925]" name="setUp" is-config="true" duration-ms="253" started-at="2019-11-07T09:58:39Z" finished-at="2019-11-07T09:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MT_Sanity_001()[pri:0, instance:BisinessLayer.MT_Sanity_1@17c68925]" name="MT_Sanity_001" duration-ms="8681" started-at="2019-11-07T09:58:39Z" finished-at="2019-11-07T09:58:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[first sanity test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MT_Sanity_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BisinessLayer.MT_Sanity_1@17c68925]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-11-07T09:59:41Z" finished-at="2019-11-07T09:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BisinessLayer.MT_Sanity_1 -->
+      <class name="BisinessLayer.MT_Sanity_3">
+        <test-method status="PASS" signature="MT_Sanity_003()[pri:0, instance:BisinessLayer.MT_Sanity_3@3d24753a]" name="MT_Sanity_003" duration-ms="29920" started-at="2019-11-07T09:59:11Z" finished-at="2019-11-07T09:59:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[My Transactions]]>
+            </line>
+            <line>
+              <![CDATA[My Transactions]]>
+            </line>
+            <line>
+              <![CDATA[Sign In Successful |Title matched |home page displayed | ]]>
+            </line>
+            <line>
+              <![CDATA[User logged out successfully|]]>
+            </line>
+            <line>
+              <![CDATA[Third sanity test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MT_Sanity_003 -->
+      </class> <!-- BisinessLayer.MT_Sanity_3 -->
+      <class name="BisinessLayer.MT_Sanity_2">
+        <test-method status="PASS" signature="MT_Sanity_002()[pri:0, instance:BisinessLayer.MT_Sanity_2@7e0ea639]" name="MT_Sanity_002" duration-ms="23042" started-at="2019-11-07T09:58:48Z" finished-at="2019-11-07T09:59:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[My Transactions]]>
+            </line>
+            <line>
+              <![CDATA[My Transactions]]>
+            </line>
+            <line>
+              <![CDATA[Sign In Successful |Title matched |home page displayed | ]]>
+            </line>
+            <line>
+              <![CDATA[Second sanity test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MT_Sanity_002 -->
+      </class> <!-- BisinessLayer.MT_Sanity_2 -->
+    </test> <!-- MT -->
+  </suite> <!-- MTtest -->
+</testng-results>

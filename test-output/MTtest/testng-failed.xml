@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [MTtest]">
+  <test name="MT(failed)">
+    <classes>
+      <class name="BisinessLayer.MT_Sanity_3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="MT_Sanity_003"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- BisinessLayer.MT_Sanity_3 -->
+      <class name="BisinessLayer.MT_Sanity_2">
+        <methods>
+          <include name="MT_Sanity_002"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- BisinessLayer.MT_Sanity_2 -->
+    </classes>
+  </test> <!-- MT(failed) -->
+</suite> <!-- Failed suite [MTtest] -->

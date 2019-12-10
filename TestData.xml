@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestData>
+	<TestData TCID = "COMMON" Key="USERNAME">shrinabh</TestData>
+	<TestData TCID = "COMMON" Key="PASSWORD">shrinabh</TestData>
+	
+	<TestData TCID = "COMMON" Key="USERNAMEREC">agrawrakR1</TestData>
+	<TestData TCID = "COMMON" Key="PASSWORDREC">agrawrakR1</TestData>
+	
+	<TestData TCID = "COMMON" Key="PROFILE">AutoProfile</TestData>
+	<TestData TCID = "COMMON" Key="INVNO">AutoInvoice1</TestData>
+    <TestData TCID = "COMMON" Key="RECEIVERE-ADDRESS">TE0037WEBRAKHIRVC1</TestData> 
+    <TestData TCID = "COMMON" Key="INTERMEDIATOR">Tieto</TestData>
+    <TestData TCID = "COMMON" Key="STREETADDRESS1">M.G.Road</TestData>
+    <TestData TCID = "COMMON" Key="STREETADDRESS2"></TestData>
+    <TestData TCID = "COMMON" Key="ZIPCODE">11111</TestData>
+    <TestData TCID = "COMMON" Key="CITY">Pune</TestData>
+    <TestData TCID = "COMMON" Key="COUNTRY">INDIA</TestData>
+    <TestData TCID = "COMMON" Key="CURRENCY">EUR</TestData>
+     <TestData TCID = "COMMON" Key="ALTCURRENCY">ERN</TestData>
+     <TestData TCID = "COMMON" Key="ELECTRONICADDRESS">TE0037WEBRAKHIRVC1</TestData>
+     <TestData TCID = "COMMON" Key="INVOICENUMBER">B005_001</TestData>
+    <TestData TCID = "COMMON" Key="NOTEDATA">this is a note</TestData> 
+    
+    
+    <TestData TCID = "COMMON" Key="EXCHANGERATE">21</TestData>
+    
+    <TestData TCID = "COMMON" Key="ARTICLENAME">Pen</TestData>
+    <TestData TCID = "COMMON" Key="QUANTITY">15.0</TestData>
+    <TestData TCID = "COMMON" Key="UNIT">10</TestData>
+    <TestData TCID = "COMMON" Key="PRICEPERUNIT">6</TestData>
+    <TestData TCID = "COMMON" Key="NET">20.0</TestData>
+    <TestData TCID = "COMMON" Key="VAT">9.0</TestData>
+
+	 <TestData TCID = "COMMON" Key="PROFILENAME">Profile Demo</TestData>
+	 <TestData TCID = "COMMON" Key="PROSTREETADDRESS">Test sender street 1</TestData>
+	 <TestData TCID = "COMMON" Key="PROZIPCODE">98768</TestData>
+	 <TestData TCID = "COMMON" Key="PROCITY">Helsinki</TestData>
+	 <TestData TCID = "COMMON" Key="PROCOUNTRY">FINLAND</TestData>
+	 <TestData TCID = "COMMON" Key="PROCURRENCY">EUR</TestData>
+	 <TestData TCID = "COMMON" Key="PROACCOUNTTYPE">IBAN</TestData>
+	 <TestData TCID = "COMMON" Key="PROBICCODE">123445667</TestData>
+	 <TestData TCID = "COMMON" Key="PROBANKNAME">TEST BANK</TestData>
+	 <TestData TCID = "COMMON" Key="PROACCOUNTNUMBER">3243424</TestData>
+	 <TestData TCID = "COMMON" Key="PROVATID">FI12345671</TestData>
+	 <TestData TCID = "COMMON" Key="PROCONTACTPERSON">Rakhi Agrawal</TestData>
+	 <TestData TCID = "COMMON" Key="PROEMAIL">rakhi.agrawal@tieto.com</TestData>
+	             
+	 <!-- create new receiver -->
+	  <TestData TCID = "COMMON" Key="RECEIVERNAME">ccaanewreceiver01</TestData>
+	 <TestData TCID = "COMMON" Key="RECSTREETADD">Test sender street 1</TestData>
+	 <TestData TCID = "COMMON" Key="RECINTERMEDIATOR">Tieto</TestData>
+	 <TestData TCID = "COMMON" Key="RECEADDRESS">Eadd7990</TestData>
+	 <TestData TCID = "COMMON" Key="RECZIP">10987</TestData>
+	 <TestData TCID = "COMMON" Key="RECCITY">city1</TestData>
+	 <TestData TCID = "COMMON" Key="RECCOUNTRY">ICELAND</TestData>
+	 <TestData TCID = "COMMON" Key="RECCURRENCY">EUR</TestData>
+	 <TestData TCID = "COMMON" Key="RECCONTACT">kunal</TestData>
+	 <TestData TCID = "COMMON" Key="RECVAT">vat77</TestData>
+	
+	
+</TestData>

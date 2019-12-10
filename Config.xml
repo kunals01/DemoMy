@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSP>
+<Config>
+<BROWSER>FIREFOX</BROWSER>
+<URL-STATIC>http://10.32.111.238:12090/mytransactions/login</URL-STATIC>
+<URL-DYNAMIC></URL-DYNAMIC>
+<HOME-DIRECTORY>C:\Automation\ICToWeb</HOME-DIRECTORY>
+<REPORT-HEADING>MyTransactions report</REPORT-HEADING>
+<EMAIL-USERNAME>srivakun</EMAIL-USERNAME>
+<EMAIL-PASSWORD>0366India!8188</EMAIL-PASSWORD>
+<MAIL-FROM>kunal.srivastava@tieto.com</MAIL-FROM>
+<ATTACH-LINK>C:\einvWebattachment\Einvoiceweb_123.txt</ATTACH-LINK>
+<UPLOAD-INVOICE>C:\einvWebattachment\Dexamplenew.zip</UPLOAD-INVOICE>
+</Config>
+<Tasks>
+<Task ID="Task1">Hello World From Task ID 1</Task>
+</Tasks>
+<TestCases>
+<TestCase Active="Yes" ID="Einv_Sanity_001" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Login - > Logout</TestCase>
+<TestCase Active="Yes" ID="Einv_Sanity_002" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Notices link functionality</TestCase>
+<TestCase Active="yes" ID="Einv_Sanity_003" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Public receiver search functionality</TestCase>
+<TestCase Active="Yes" ID="Einv_Sanity_004" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Setting -> edit -> Save functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_005" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Setting -> edit -> Cancel functionality</TestCase>
+<TestCase Active="Yes" ID="Einv_Sanity_006" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Invoice issuer link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_007" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Create new invoice link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_008" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Invoice drafts link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_009" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Sent invoices link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0010" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Own Receiver list link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0011" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Invoice Profiles link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0012" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Help link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0013" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Additional Issuer Information link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0024" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Add invoice lines > recalculate functionality> Preview > Send</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0014" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Additional Receiver Information link functionality</TestCase>
+<!-- repeated <TestCase Active="No" ID="Einv_Sanity_0015" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Own list receiver invoice send functionality</TestCase> -->
+<TestCase Active="No" ID="Einv_Sanity_0016" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Public list receiver invoice send functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0018" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Invoice drafts copy invoice send functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0019" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Invoice drafts edit send functionality</TestCase> 
+<TestCase Active="Yes" ID="Einv_Sanity_0020" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Sent invoices copy send invoice functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0021" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Additional invoice information link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0022" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Add details link functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0023" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Add invoice lines, invoice send functionality</TestCase>
+
+<TestCase Active="No" ID="Einv_Sanity_0025" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Create new receiver functionality</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0026" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">New Receiver Public List</TestCase> 
+<TestCase Active="No" ID="Einv_Sanity_0027" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Create new profile</TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0028" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Create new profile > Create Invoice with New Profile > Preview </TestCase>
+<TestCase Active="No" ID="Einv_Sanity_0029" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Logout Functionality </TestCase>
+<TestCase Active="Yes" ID="Einv_Sanity_0030" Name="Open URL" TaskID="Task1" TestDataPath="TestData.xml">Check Invoice Save as draft functionality</TestCase> 
+
+</TestCases>
+</CSP>
